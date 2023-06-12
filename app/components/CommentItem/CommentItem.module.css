@@ -1,0 +1,27 @@
+.commentItem {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+
+.commentItem_name {
+  font-weight: 600;
+}
+
+.commentItem_text {
+  font-weight: 400;
+}
+
+.commentItem_wrp {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 5px;
+}
+
+.commentItem_wrp > * {
+  margin-right: 10px;
+}

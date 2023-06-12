@@ -1,0 +1,11 @@
+.form {
+  padding: 2px;
+}
+
+.form > * {
+  margin-bottom: 10px;
+}
+
+.btn {
+  text-align: start;
+}
